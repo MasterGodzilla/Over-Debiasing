@@ -98,5 +98,6 @@ for job in jobs:
 with open("results/{}/stats.txt".format(args.model), 'w') as file:
     file.write(str(gender_counters)+'\n')
     file.write(str(race_counters)+'\n')
-        
+print (gender_counters)
+print (race_counters)
               
