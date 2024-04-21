@@ -83,3 +83,38 @@ The lack of racial diversity in the model's outputs raises concerns about perpet
 ![Racial Bias in Job Titles](results/meta-llama/Llama-3-8b-chat-hf/race_bias_plot.png)
 
 ![Racial Bias in Job Titles](results/meta-llama/Llama-3-70b-chat-hf/race_bias_plot.png)
+
+## How to Run the Code
+
+To replicate our analysis, follow these steps:
+
+### Setting Up the Environment
+
+1. **Register with Together AI:**
+   - Sign up for an account at Together AI and upgrade to paid user for a higher rate limit.
+
+2. **Install Dependencies:**
+   - Install the `together` Python package via pip:
+
+```shell
+pip install together
+```
+
+3. **Set Your API Key:**
+   - Obtain your API key from Together AI and set it as an environment variable in your shell:
+
+```shell
+export TOGETHER_API_KEY='your_api_key_here'
+```
+
+### Executing the Script
+
+- Run the script `test.py` with the desired model as an argument:
+
+```shell
+python test.py --model meta-llama/Llama-3-70b-chat-hf
+```
+
+This will start the process of generating narratives and analyzing the model's output for biases based on the methodology outlined above.
+
+Make sure to replace `'your_api_key_here'` with your actual Together AI API key. This Markdown snippet can be added to your README to provide instructions for running your analysis code.
