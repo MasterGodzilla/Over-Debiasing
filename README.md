@@ -1,6 +1,4 @@
-# Over-Debiasing
-
-## Bias and Over-Debiasing in Llama3
+# Bias and Over-Debiasing in Llama3
 
 Large language models like Llama3 can exhibit biases stemming from their training data, influencing their predictions in skewed ways. Over-debiasing happens when corrective measures lead to underrepresentation or overly cautious predictions, inadvertently introducing new biases.
 
