@@ -107,6 +107,8 @@ pip install together
 export TOGETHER_API_KEY='your_api_key_here'
 ```
 
+Make sure to replace `'your_api_key_here'` with your actual Together AI API key. This Markdown snippet can be added to your README to provide instructions for running your analysis code.
+
 ### Executing the Script
 
 - Run the script `test.py` with the desired model as an argument:
@@ -117,4 +119,19 @@ python test.py --model meta-llama/Llama-3-70b-chat-hf
 
 This will start the process of generating narratives and analyzing the model's output for biases based on the methodology outlined above.
 
-Make sure to replace `'your_api_key_here'` with your actual Together AI API key. This Markdown snippet can be added to your README to provide instructions for running your analysis code.
+
+### Analyzing the Results
+
+We have provided Jupyter notebooks to facilitate the analysis of the generated data, allowing for a structured and interactive way to explore the results.
+
+To analyze the results:
+
+1. **Navigate to the Provided Notebook:**
+   - In the Jupyter interface, open the provided notebook file (`graph.ipynb`) which contains the code for analysis.
+
+2. **Run the Analysis:**
+   - Execute the cells in the Jupyter notebook sequentially to reproduce the analysis.
+   - The notebook includes code to load the data, perform statistical analyses, and visualize the results as charts and graphs.
+
+By using the provided Jupyter notebooks, you can dive deep into the bias assessment of Llama3, and you can also modify or extend the analyses as needed for further exploration.
+
