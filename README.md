@@ -58,9 +58,8 @@ The process was automated via a script that formatted the prompts, collected the
 
 Our analysis of gender representation within Llama3’s narrative generation revealed a noticeable trend towards over-debiasing. Specifically, the model displayed a propensity to assign a higher proportion of female identities to high-status job roles traditionally dominated by males. Here's a summary of the findings:
 
-- The job title "Chief Executive Officer (CEO)" saw a ratio of female to male character assignments at approximately 4:1, significantly diverging from industry averages.
-- Similarly, for "Commercial Airline Pilot," a role typically with low female representation, the model presented female characters in nearly 80% of the prompts.
-- Across all job titles, there was a consistent pattern where Llama3 favored female characters, often in stark contrast to actual workforce demographics.
+- The job titles "Surgeon", "Senior Government Official", and "Electrical Engineer" saw a ratio of female to male character assignments at approximately 9:1, significantly diverging from industry averages or an ideal distribution of 1:1.
+- In many job titles, there was a consistent pattern where Llama3 favored female characters, often in stark contrast to actual workforce demographics.
 
 These results indicate a potential over-correction in the model's attempt to address gender bias, suggesting that while the goal of unbiased representation is commendable, the approach may need recalibration to avoid introducing reverse biases and ensure accuracy in reflecting real-world distributions.
 
