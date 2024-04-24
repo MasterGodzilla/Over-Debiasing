@@ -106,7 +106,7 @@ pip install together
 export TOGETHER_API_KEY='your_api_key_here'
 ```
 
-Make sure to replace `'your_api_key_here'` with your actual Together AI API key. This Markdown snippet can be added to your README to provide instructions for running your analysis code.
+Make sure to replace `'your_api_key_here'` with your actual Together AI API key. 
 
 ### Executing the Script
 
